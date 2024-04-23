@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".realtimedraw.MainActivity">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/charcoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/charcoal"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/elephant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/elephant"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/indigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/indigo"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/dove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/dove"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/ultramarine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/ultramarine"/>
+
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/grape_jelly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/grape_jelly"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/mulberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/mulberry"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/sexy_salmon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/sexy_salmon"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/peach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/peach"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/flamingo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/flamingo"/>
+
+            <edu.utexas.jinheng.drawtogether.view.PencilView
+                android:id="@+id/melon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/melon"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:padding="8dp"
+            android:textSize="10sp"
+            android:text="Shake to clear\nhhhai0304"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>

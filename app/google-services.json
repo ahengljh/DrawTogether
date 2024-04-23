@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "120019065509",
+    "project_id": "drawtogether-ed8a1",
+    "storage_bucket": "drawtogether-ed8a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120019065509:android:4c5bb47a067593630c4b4c",
+        "android_client_info": {
+          "package_name": "edu.utexas.jinheng.drawtogether"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5oA9Udf9qgnpzc_O9HjR3D2n3aT01SlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+    }
+  ],
+  "configuration_version": "1"
+}
